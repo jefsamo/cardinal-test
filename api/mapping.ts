@@ -705,4 +705,23 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
       fontColor: '#FFFFFF',
     },
   },
+  {
+    name: 'rptrd-souls',
+    displayName: 'Raptured Souls',
+    stakePoolAddress: new PublicKey(
+      '96TMYoc7ASVaTz7zKfg9RdZEvBukW9fQfRx16hzbE9LF'
+    ),
+    websiteUrl: 'https://www.yoyoyetis.com/',
+    hidden: true,
+    receiptType: ReceiptType.Receipt,
+    imageUrl:
+      'https://media.discordapp.net/attachments/911802368251809883/996651684048687165/skull.png?width=1100&height=1100',
+    maxStaked: 6666,
+    colors: {
+      primary: '#000000',
+      secondary: '#4da1de',
+      accent: '#1fcfb11c',
+      fontColor: '#FFFFFF',
+    },
+  },
 ]

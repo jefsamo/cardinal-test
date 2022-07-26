@@ -1802,7 +1802,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer bgColor={stakePoolMetadata?.colors?.primary} />
     </div>
   )
 }
